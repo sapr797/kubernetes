@@ -1,0 +1,2 @@
+NAME                      ENDPOINTS                                                         AGE
+nginx-multitool-service   10.1.192.108:1180,10.1.192.109:1180,10.1.192.108:80 + 1 more...   57m

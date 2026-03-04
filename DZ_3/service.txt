@@ -1,0 +1,2 @@
+NAME                      TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)           AGE
+nginx-multitool-service   ClusterIP   10.152.183.153   <none>        80/TCP,1180/TCP   56m
