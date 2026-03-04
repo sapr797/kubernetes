@@ -1,0 +1,20 @@
+2026-03-01T12:17:19.547182+00:00 kubernetes systemd-modules-load[304]: Inserted module 'msr'
+2026-03-01T12:17:19.547745+00:00 kubernetes kernel: Linux version 6.8.0-100-generic (buildd@lcy02-amd64-061) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #100-Ubuntu SMP PREEMPT_DYNAMIC Tue Jan 13 16:40:06 UTC 2026 (Ubuntu 6.8.0-100.100-generic 6.8.12)
+2026-03-01T12:17:19.547753+00:00 kubernetes kernel: Command line: BOOT_IMAGE=/boot/vmlinuz-6.8.0-100-generic root=UUID=a4067ea2-2d37-482f-9e75-39410b69c271 ro net.ifnames=0 biosdevname=0 console=ttyS0 console=tty1 console=ttyS0
+2026-03-01T12:17:19.547754+00:00 kubernetes kernel: KERNEL supported cpus:
+2026-03-01T12:17:19.547755+00:00 kubernetes kernel:   Intel GenuineIntel
+2026-03-01T12:17:19.547756+00:00 kubernetes kernel:   AMD AuthenticAMD
+2026-03-01T12:17:19.547757+00:00 kubernetes kernel:   Hygon HygonGenuine
+2026-03-01T12:17:19.547757+00:00 kubernetes kernel:   Centaur CentaurHauls
+2026-03-01T12:17:19.547760+00:00 kubernetes kernel:   zhaoxin   Shanghai  
+2026-03-01T12:17:19.547761+00:00 kubernetes kernel: BIOS-provided physical RAM map:
+2026-03-01T12:17:19.547762+00:00 kubernetes kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+2026-03-01T12:17:19.547763+00:00 kubernetes kernel: BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+2026-03-01T12:17:19.547764+00:00 kubernetes kernel: BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+2026-03-01T12:17:19.547765+00:00 kubernetes kernel: BIOS-e820: [mem 0x0000000000100000-0x000000007ffdcfff] usable
+2026-03-01T12:17:19.547767+00:00 kubernetes kernel: BIOS-e820: [mem 0x000000007ffdd000-0x000000007fffffff] reserved
+2026-03-01T12:17:19.547768+00:00 kubernetes kernel: BIOS-e820: [mem 0x00000000b0000000-0x00000000bfffffff] reserved
+2026-03-01T12:17:19.547769+00:00 kubernetes kernel: BIOS-e820: [mem 0x00000000fed1c000-0x00000000fed1ffff] reserved
+2026-03-01T12:17:19.547770+00:00 kubernetes kernel: BIOS-e820: [mem 0x00000000feffc000-0x00000000feffffff] reserved
+2026-03-01T12:17:19.547770+00:00 kubernetes kernel: BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+2026-03-01T12:17:19.547771+00:00 kubernetes kernel: BIOS-e820: [mem 0x0000000100000000-0x000000017fffffff] usable
