@@ -1,0 +1,30 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: frontend-policy
+  namespace: app
+spec:
+  podSelector:
+    matchLabels:
+      app: frontend
+  policyTypes:
+  - Ingress
+  - Egress
+  ingress: []  # запрещаем весь входящий трафик
+  egress:
+  - to:
+    - podSelector:
+        matchLabels:
+          app: backend
+    ports:
+    - protocol: TCP
+      port: 8080
+  # Разрешаем DNS (важно для работы сервисов)
+  - to:
+    - namespaceSelector: {}  # любой namespace
+      podSelector:
+        matchLabels:
+          k8s-app: kube-dns  # для CoreDNS в MicroK8s может быть другая метка, проверьте
+    ports:
+    - protocol: UDP
+      port: 53
