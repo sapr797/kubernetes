@@ -1,0 +1,1 @@
+Error from server (Forbidden): pods "web-app-7bb6cf566b-6fccg" is forbidden: User "developer" cannot delete resource "pods" in API group "" in the namespace "default"
