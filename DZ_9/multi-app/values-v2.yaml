@@ -1,0 +1,6 @@
+frontend:
+  image:
+    tag: alpine  # используем alpine-версию nginx
+backend:
+  image:
+    tag: extra   # используем версию multitool с дополнительными инструментами

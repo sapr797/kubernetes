@@ -1,0 +1,3 @@
+NAME                                  READY   STATUS    RESTARTS   AGE
+my-app-v2-backend-7bcc57778d-hhfh5    1/1     Running   0          4m44s
+my-app-v2-frontend-54cc6b7475-jhpxz   1/1     Running   0          4m44s
