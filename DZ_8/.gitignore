@@ -1,0 +1,12 @@
+# Чувствительные файлы
+ca.key
+ca.crt
+ca.srl
+developer.key
+developer.crt
+developer.csr
+tls.key
+tls.crt
+*.b64
+*.b64base
+secret-tls.yaml

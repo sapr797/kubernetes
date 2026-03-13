@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: log-reader-daemonset
+  labels:
+    app: log-reader
+spec:
+  selector:
+    matchLabels:
+      app: log-reader
+  template:
+    metadata:
+      labels:
+        app: log-reader
+    spec:
+      volumes:
+      - name: host-log
+        hostPath:
+          path: /var/log   # директория с логами на узле
+          type: Directory
+      containers:
+      - name: multitool
+        image: wbitt/network-multitool
+        env:
+        - name: HTTP_PORT
+          value: "8081"
+        volumeMounts:
+        - name: host-log
+          mountPath: /host-log   # куда монтируем в контейнере
+        ports:
+        - containerPort: 8081

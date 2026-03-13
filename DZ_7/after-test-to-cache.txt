@@ -1,0 +1,4 @@
+WBITT Network MultiTool (with NGINX) - cache-6dfb8d5d78-6lc47 - 10.1.192.67 - HTTP: 8080 , HTTPS: 443 . (Formerly praqma/network-multitool)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   140  100   140    0     0   113k      0 --:--:-- --:--:-- --:--:--  136k

@@ -1,0 +1,1 @@
+WBITT Network MultiTool (with NGINX) - backend-9bb96bd8d-gpgh2 - 10.1.192.65 - HTTP: 8080 , HTTPS: 443 . (Formerly praqma/network-multitool)

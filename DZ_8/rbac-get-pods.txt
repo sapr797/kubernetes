@@ -1,0 +1,17 @@
+NAME                                         READY   STATUS    RESTARTS       AGE
+backend-deployment-77bc84588d-55kbq          1/1     Running   1 (153m ago)   43h
+frontend-deployment-54758c4c55-fpl2c         1/1     Running   1 (153m ago)   43h
+frontend-deployment-54758c4c55-nt6pj         1/1     Running   1 (153m ago)   43h
+frontend-deployment-54758c4c55-vb6k6         1/1     Running   1              43h
+hello-world                                  1/1     Running   2 (153m ago)   3d
+log-reader-daemonset-46q9z                   1/1     Running   1 (153m ago)   41h
+multitool-client                             1/1     Running   1 (153m ago)   2d1h
+netology-web                                 1/1     Running   2 (153m ago)   3d
+nginx-init-deployment-7457cdf6dd-btzvg       1/1     Running   1 (153m ago)   2d
+nginx-multitool-deploy-5c786ff988-9hjqw      2/2     Running   2 (153m ago)   46h
+nginx-multitool-deploy-5c786ff988-vhwmf      2/2     Running   2 (153m ago)   46h
+nginx-multitool-deploy-5c786ff988-xnnrw      2/2     Running   2 (153m ago)   46h
+nginx-multitool-deployment-cb757bd55-4sl2k   2/2     Running   2 (153m ago)   2d1h
+nginx-multitool-deployment-cb757bd55-ffqp6   2/2     Running   2 (153m ago)   2d1h
+shared-volume-deployment-5d666b94bb-b5dvd    2/2     Running   2 (153m ago)   42h
+web-app-7bb6cf566b-6fccg                     2/2     Running   0              46m

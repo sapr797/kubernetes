@@ -1,0 +1,4 @@
+NAME            	NAMESPACE	REVISION	UPDATED                                	STATUS  	CHART          	APP VERSION
+my-app-v1       	app1     	2       	2026-03-08 08:05:28.25054279 +0000 UTC 	deployed	multi-app-0.1.0	1.16.0     
+my-app-v1-second	app1     	1       	2026-03-08 08:05:49.686663044 +0000 UTC	deployed	multi-app-0.1.0	1.16.0     
+my-app-v2       	app2     	1       	2026-03-08 08:07:01.330690285 +0000 UTC	deployed	multi-app-0.1.0	1.16.0     
