@@ -1,0 +1,2 @@
+NAME                TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)             AGE
+multi-app-service   ClusterIP   10.152.183.225   <none>        9001/TCP,9002/TCP   34m

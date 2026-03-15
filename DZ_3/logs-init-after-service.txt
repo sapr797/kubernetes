@@ -1,0 +1,8 @@
+Server:		10.152.183.10
+Address:	10.152.183.10:53
+
+
+Name:	nginx-init-service.default.svc.cluster.local
+Address: 10.152.183.166
+
+Service found! Continuing...

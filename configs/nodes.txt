@@ -1,0 +1,2 @@
+NAME         STATUS   ROLES    AGE   VERSION
+kubernetes   Ready    <none>   8h    v1.33.7

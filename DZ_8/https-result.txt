@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ConfigMap Demo</title>
+</head>
+<body>
+  <h1>Hello from Kubernetes ConfigMap!</h1>
+  <p>Эта страница загружена из ConfigMap.</p>
+</body>
+</html>

@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-multitool-deploy
+  labels:
+    app: multi-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: multi-app
+  template:
+    metadata:
+      labels:
+        app: multi-app
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:latest
+        ports:
+        - containerPort: 80
+      - name: multitool
+        image: wbitt/network-multitool
+        env:
+        - name: HTTP_PORT
+          value: "8080"   # заставляем multitool слушать 8080 вместо 80
+        ports:
+        - containerPort: 8080

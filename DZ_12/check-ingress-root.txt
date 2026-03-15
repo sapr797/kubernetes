@@ -1,0 +1,35 @@
+
+
+Hostname: echo-7cc957b4f7-58cjg
+
+Pod Information:
+	-no pod information available-
+
+Server values:
+	server_version=nginx: 1.13.3 - lua: 10008
+
+Request Information:
+	client_address=10.244.0.18
+	method=GET
+	real path=/
+	query=
+	request_version=1.1
+	request_scheme=http
+	request_uri=http://myapp.local:8080/
+
+Request Headers:
+	accept=*/*
+	host=myapp.local
+	user-agent=curl/8.5.0
+	x-forwarded-for=192.168.49.1
+	x-forwarded-host=myapp.local
+	x-forwarded-port=80
+	x-forwarded-proto=http
+	x-forwarded-scheme=http
+	x-real-ip=192.168.49.1
+	x-request-id=ccd6b392d65e2b184662afb5b35b1e68
+	x-scheme=http
+
+Request Body:
+	-no body in request-
+

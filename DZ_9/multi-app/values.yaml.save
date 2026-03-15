@@ -1,0 +1,26 @@
+# Общие настройки
+nameOverride: ""
+fullnameOverride: ""
+
+# Настройки для frontend компонента
+frontend:
+  replicaCount: 1
+  image:
+    repository: nginx
+    tag: latest
+    pullPolicy: IfNotPresent
+  service:
+    type: ClusterIP
+    port: 80
+
+
+targetPort: 8080# Настройки для backend компонента
+backend:
+  replicaCount: 1
+  image:
+    repository: wbitt/network-multitool
+    tag: latest
+    pullPolicy: IfNotPresent
+  service:
+    type: ClusterIP
+    port: 8080
