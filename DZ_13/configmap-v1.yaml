@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-config-v1
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <head><title>Stable Version</title></head>
+    <body>
+      <h1>Welcome to Stable Nginx (v1)</h1>
+    </body>
+    </html>

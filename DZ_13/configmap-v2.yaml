@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-config-v2
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <head><title>Canary Version</title></head>
+    <body>
+      <h1>Welcome to Canary Nginx (v2)</h1>
+      <p>This is a test version for a subset of users.</p>
+    </body>
+    </html>

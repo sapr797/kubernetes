@@ -1,0 +1,5 @@
+The directory /usr/share/nginx/html is not mounted.
+Therefore, over-writing the default index.html file with some useful information:
+WBITT Network MultiTool (with NGINX) - test-pod - 10.244.0.44 - HTTP: 80 , HTTPS: 443 . (Formerly praqma/network-multitool)
+WBITT Network MultiTool (with NGINX) - nginx-update-demo-845dfcf548-p58ss - 10.244.0.39 - HTTP: 8080 , HTTPS: 443 . (Formerly praqma/network-multitool)
+pod "test-pod" deleted

@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-stable
+  labels:
+    app: nginx-canary
+    version: stable
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: nginx-canary
+      version: stable
+  template:
+    metadata:
+      labels:
+        app: nginx-canary
+        version: stable
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:latest
+        volumeMounts:
+        - name: html
+          mountPath: /usr/share/nginx/html/index.html
+          subPath: index.html
+      volumes:
+      - name: html
+        configMap:
+          name: nginx-config-v1

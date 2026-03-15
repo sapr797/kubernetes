@@ -1,0 +1,10 @@
+NAME                                 READY   STATUS      RESTARTS       AGE
+backend-6dd7c57d78-jrpxl             1/1     Running     0              72m
+curl-test                            0/1     Completed   0              62m
+echo-7cc957b4f7-58cjg                1/1     Running     2 (104m ago)   155m
+frontend-78dc97d455-v5m25            1/1     Running     0              72m
+nginx-update-demo-845dfcf548-64676   2/2     Running     0              65s
+nginx-update-demo-845dfcf548-c56n7   2/2     Running     0              59s
+nginx-update-demo-845dfcf548-n9cnj   2/2     Running     0              57s
+nginx-update-demo-845dfcf548-p58ss   2/2     Running     0              61s
+nginx-update-demo-845dfcf548-svb97   2/2     Running     0              55s

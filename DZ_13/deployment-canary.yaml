@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-canary
+  labels:
+    app: nginx-canary
+    version: canary
+spec:
+  replicas: 1  # малая доля трафика
+  selector:
+    matchLabels:
+      app: nginx-canary
+      version: canary
+  template:
+    metadata:
+      labels:
+        app: nginx-canary
+        version: canary
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:latest
+        volumeMounts:
+        - name: html
+          mountPath: /usr/share/nginx/html/index.html
+          subPath: index.html
+      volumes:
+      - name: html
+        configMap:
+          name: nginx-config-v2
