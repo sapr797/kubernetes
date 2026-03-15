@@ -1,0 +1,4 @@
+NAME                            READY   STATUS             RESTARTS   AGE
+web-consumer-66fd9cb5f6-6gv2h   1/1     Running            0          10m
+web-consumer-66fd9cb5f6-7kn99   1/1     Running            0          10m
+web-consumer-6c5f7cc594-prxjr   0/1     ImagePullBackOff   0          3m8s
