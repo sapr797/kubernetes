@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shared-volume-deployment
+  labels:
+    app: shared
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: shared
+  template:
+    metadata:
+      labels:
+        app: shared
+    spec:
+      volumes:
+      - name: shared-data
+        emptyDir: {}
+      containers:
+      # Контейнер 1: busybox – пишет в файл каждые 5 секунд
+      - name: writer
+        image: busybox:latest
+        command: ['sh', '-c', 'while true; do echo "$(date): Hello from busybox" >> /data/log.txt; sleep 5; done']
+        volumeMounts:
+        - name: shared-data
+          mountPath: /data
+      # Контейнер 2: multitool – читает файл
+      - name: reader
+        image: wbitt/network-multitool
+        env:
+        - name: HTTP_PORT
+          value: "8080"   # чтобы не конфликтовать с другими портами
+        volumeMounts:
+        - name: shared-data
+          mountPath: /data
+        ports:
+        - containerPort: 8080

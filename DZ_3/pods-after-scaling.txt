@@ -1,0 +1,7 @@
+NAME                                         READY   STATUS    RESTARTS      AGE
+hello-world                                  1/1     Running   1 (68m ago)   24h
+multitool-client                             1/1     Running   0             52m
+netology-web                                 1/1     Running   1 (68m ago)   24h
+nginx-init-deployment-7457cdf6dd-btzvg       1/1     Running   0             13m
+nginx-multitool-deployment-cb757bd55-4sl2k   2/2     Running   0             59m
+nginx-multitool-deployment-cb757bd55-ffqp6   2/2     Running   0             61m
